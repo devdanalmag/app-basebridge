@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="/js/access.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     
     <!-- Main CSS -->
     <link rel="stylesheet" href="/styles/main.css">
-    
+    <link rel="icon" href="/img/t-logo.png" type="image/png">
     <!-- Additional CSS -->
     <% if (typeof additionalCSS !== 'undefined' && additionalCSS) { %>
         <% additionalCSS.forEach(function(css) { %>
@@ -26,11 +27,11 @@
     <nav class="navbar desktop-nav">
         <div class="nav-container">
             <div class="nav-brand">
-                <img src="/img/logo.jpg" alt="BaseBridge Logo" class="nav-logo">
+                <img src="/img/t-logo.png" alt="BaseBridge Logo" class="nav-logo">
                 <span class="nav-title">BaseBridge</span>
             </div>
             <div class="nav-menu">
-                <a href="/" class="nav-link">Home</a>
+                <a href="https://bbecosystem.vercel.app/" class="nav-link">Home</a>
                 <a href="/jobs" class="nav-link">Find Jobs</a>
                 <a href="/post-job" class="nav-link">Post Job</a>
                 <a href="/dashboard" class="nav-link">Dashboard</a>
@@ -49,7 +50,7 @@
     <!-- Mobile Top Bar -->
     <div class="mobile-top-bar">
         <div class="nav-brand">
-            <img src="/img/logo.jpg" alt="BaseBridge Logo" class="nav-logo">
+            <img src="/img/t-logo.png" alt="BaseBridge Logo" class="nav-logo">
             <span class="nav-title">BaseBridge</span>
         </div>
         <button class="hamburger-menu" id="hamburgerToggle">
@@ -63,7 +64,7 @@
     <div class="mobile-slide-menu" id="mobileSlideMenu">
         <div class="slide-menu-header">
             <div class="nav-brand">
-                <img src="/img/logo.jpg" alt="BaseBridge Logo" class="nav-logo">
+                <img src="/img/t-logo.png" alt="BaseBridge Logo" class="nav-logo">
                 <span class="nav-title">BaseBridge</span>
             </div>
             <button class="close-menu" id="closeMenu">
@@ -71,7 +72,7 @@
             </button>
         </div>
         <div class="slide-menu-content">
-            <a href="/" class="slide-menu-item">
+            <a href="https://bbecosystem.vercel.app/" class="slide-menu-item">
                 <i class="fas fa-home"></i>
                 <span>Home</span>
             </a>
@@ -115,7 +116,7 @@
 
     <!-- Mobile Bottom Navigation -->
     <nav class="mobile-bottom-nav">
-        <a href="/" class="mobile-nav-item">
+        <a href="https://bbecosystem.vercel.app/" class="mobile-nav-item">
             <i class="fas fa-home"></i>
             <span>Home</span>
         </a>
